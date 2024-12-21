@@ -1,0 +1,69 @@
+.countdown {
+    margin: 30px auto;
+    color:#FF69B4 ;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    font-family: "Kablammo", system-ui;
+    animation: moveUpDown 2s infinite ease-in-out;
+}
+@keyframes moveUpDown {
+   0%, 100% {
+       transform: translateY(5px);
+   }
+   50% {
+       transform: translateY(-30px);
+   }
+}
+@keyframes moveUpDown {
+   0%, 100% {
+       transform: translateY(5px);
+   }
+   50% {
+       transform: translateY(-30px);
+   }
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(90deg, #FFB6C1,#fc7bbc);
+}
+.birthday{
+    animation: slideInRight 1.5s ease-out; 
+}
+.birthday h1{
+     font-family: "Kablammo", system-ui;
+     color: #FF69B4;
+}
+.birthday p{
+     font-family: "Mountains of Christmas", serif;
+     font-size: 40px;
+     color: #FF69B4;
+     text-transform:uppercase;
+}
+img{
+     animation: slideInRight 1.5s ease-out; 
+}
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .word{
+     padding:10px ;
+     text-align: center;
+     color: #FF69B4;
+     text-shadow:1px 1px #fd0c85;
+     font-family: sa;
+     margin:50px;
+     animation: slideInRight 1.5s ease-out; 
+
+  }
